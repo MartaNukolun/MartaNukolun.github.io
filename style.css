@@ -82,3 +82,12 @@ nav .nav-list li:not(:last-child) a:hover{
   color: #2ecc71;
   transition: .4s;
 }
+nav .nav-list li.btn a{
+  display: inline-block;
+  background: transparent;
+  border: 2px solid #2ecc71;
+  padding: 9px 28px;
+  border-radius: 30px;
+  color: #2ecc71;
+  font-weight: 500;
+}
