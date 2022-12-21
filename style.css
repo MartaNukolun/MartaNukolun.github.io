@@ -1616,7 +1616,7 @@ blockquote {
 }
 
 .info-list {
-    margin-bottom:20px
+    margin-bottom: 20px
 }
 
 .info-list ul {
@@ -2650,6 +2650,37 @@ skills.circles .progress.p51 .slice, .skills.circles .progress.p52 .slice, .skil
     -o-transform:rotate(360deg)
 }
 
+.service-items .service-col {
+    margin-top: 60px;
+    padding: 0 20px;
+    display: inline-block;
+    vertical-align: top;
+    width:50%
+}
+
+.service-item .icon {
+    margin-bottom: 15px;
+    font-size: 32px;
+    height: 32px;
+    color:#68e0cf
+}
+
+.service-item .name {
+    margin: 0 0 30px;
+    font-size: 18px;
+    color: #fff;
+    font-weight:800
+}
+
+@media (max-width: 720px) {
+    .service-items .service-col {
+        width:100%
+    }
+}
+
+
+
+
 @media (max-width: 720px) {
     .skills ul li {
         width:100%
@@ -2861,7 +2892,6 @@ skills.circles .progress.p51 .slice, .skills.circles .progress.p52 .slice, .skil
     float: right;
     width: 50%;
     min-height: 482px;
-    border: 1px solid #585d65;
     border-radius: 30px;
     -moz-border-radius: 30px;
     -webkit-border-radius: 30px;
